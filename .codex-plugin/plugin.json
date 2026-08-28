@@ -1,0 +1,41 @@
+{
+  "name": "prosocial",
+  "version": "0.1.2",
+  "description": "Personalize ChatGPT and Codex with your measured ProSocial People Skills Index profile.",
+  "author": {
+    "name": "ProSocial",
+    "url": "https://app.tryprosocial.com"
+  },
+  "homepage": "https://app.tryprosocial.com",
+  "repository": "https://github.com/science-of-people/prosocial-plugin",
+  "keywords": [
+    "people-skills",
+    "communication",
+    "coaching",
+    "personalization",
+    "psi"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ProSocial",
+    "shortDescription": "Tailor communication and coaching to your measured People Skills Index.",
+    "longDescription": "Connect your ProSocial People Skills Index so ChatGPT and Codex can tailor collaboration, communication guidance, and interpersonal coaching to your measured, trainable skills.",
+    "developerName": "ProSocial",
+    "category": "Productivity",
+    "capabilities": [
+      "Read-only personalization",
+      "People-skills coaching"
+    ],
+    "websiteURL": "https://app.tryprosocial.com",
+    "privacyPolicyURL": "https://tryprosocial.com/privacy/",
+    "termsOfServiceURL": "https://tryprosocial.com/terms/",
+    "logo": "./assets/prosocial-logo.png",
+    "defaultPrompt": [
+      "Use my ProSocial profile to tailor how we work together.",
+      "I need to disagree with my manager tomorrow. Prepare me with my measured people skills.",
+      "Draft a follow-up message after a tense team meeting, matched to my profile."
+    ],
+    "brandColor": "#D65A3A"
+  }
+}

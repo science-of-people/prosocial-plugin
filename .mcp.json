@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "prosocial": {
+      "type": "http",
+      "url": "https://app.tryprosocial.com/mcp",
+      "scopes": ["openid", "people_skills:read"],
+      "oauth": {
+        "client_id": "KfT3N5laj6NRaz3s"
+      }
+    }
+  }
+}

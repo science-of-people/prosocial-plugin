@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "prosocial",
+  "displayName": "ProSocial",
+  "version": "0.1.2",
+  "description": "Personalize Claude with your measured ProSocial People Skills Index profile.",
+  "author": {
+    "name": "ProSocial",
+    "url": "https://app.tryprosocial.com"
+  },
+  "homepage": "https://app.tryprosocial.com",
+  "repository": "https://github.com/science-of-people/prosocial-plugin",
+  "keywords": [
+    "people-skills",
+    "communication",
+    "coaching",
+    "personalization",
+    "psi"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.claude.json"
+}
