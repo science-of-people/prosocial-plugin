@@ -1,7 +1,7 @@
 {
   "name": "prosocial",
-  "version": "0.1.2",
-  "description": "Personalize ChatGPT and Codex with your measured ProSocial People Skills Index profile.",
+  "version": "0.2.0",
+  "description": "Take the free ProSocial People Skills Index in ChatGPT and get people-skills coaching tailored to how you come across.",
   "author": {
     "name": "ProSocial",
     "url": "https://app.tryprosocial.com"
@@ -10,31 +10,32 @@
   "repository": "https://github.com/science-of-people/prosocial-plugin",
   "keywords": [
     "people-skills",
+    "relationships",
     "communication",
     "coaching",
-    "personalization",
     "psi"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "ProSocial",
-    "shortDescription": "Tailor communication and coaching to your measured People Skills Index.",
-    "longDescription": "Connect your ProSocial People Skills Index so ChatGPT and Codex can tailor collaboration, communication guidance, and interpersonal coaching to your measured, trainable skills.",
+    "shortDescription": "See how you come across",
+    "longDescription": "ProSocial helps you improve your relationships with the people around you, and learn about yourself along the way. Take the People Skills Index (PSI) free, right in the chat. Five short sections show how you read people, how you sound, how you write, and how you see yourself. The ProSocial panel runs each section while ChatGPT guides you through it and then through every result. With your PSI complete, ChatGPT can tailor help with the people who matter to you: preparing for a hard conversation, reworking a message before you send it, or getting ready to meet someone new. If you approve an AI Writing Fingerprint in ProSocial, ChatGPT can also draft in your own voice. Connecting signs you in to ProSocial or creates your free account. The PSI measures trainable people skills, not personality. You can turn sharing off anytime in ProSocial Settings.",
     "developerName": "ProSocial",
     "category": "Productivity",
     "capabilities": [
-      "Read-only personalization",
-      "People-skills coaching"
+      "Free People Skills Index",
+      "Personalized people-skills coaching",
+      "Writing in your voice"
     ],
     "websiteURL": "https://app.tryprosocial.com",
     "privacyPolicyURL": "https://tryprosocial.com/privacy/",
     "termsOfServiceURL": "https://tryprosocial.com/terms/",
     "logo": "./assets/prosocial-logo.png",
     "defaultPrompt": [
-      "Use my ProSocial profile to tailor how we work together.",
-      "I need to disagree with my manager tomorrow. Prepare me with my measured people skills.",
-      "Draft a follow-up message after a tense team meeting, matched to my profile."
+      "Help me take my free People Skills Index.",
+      "Use my ProSocial profile to prepare me for a hard conversation with my manager.",
+      "Rewrite this message so it lands well, using my ProSocial profile."
     ],
     "brandColor": "#D65A3A"
   }

@@ -1,20 +1,33 @@
 # ProSocial plugin
 
-Connect Claude to your measured ProSocial People Skills Index (PSI) profile.
-The plugin adds one personalization skill and one authenticated, read-only MCP
-tool:
+ProSocial helps you improve your relationships with the people around you, and
+learn about yourself along the way. This plugin brings it into Claude, ChatGPT
+and Codex:
+
+- **Take the People Skills Index (PSI) free, in the chat.** Five short sections
+  show how you read people, how you sound, how you write, and how you see
+  yourself. A ProSocial panel runs each section while the assistant guides you
+  through it and then through every result.
+- **Get help tailored to how you come across.** With your PSI complete, the
+  assistant uses your profile to prepare you for a hard conversation, rework a
+  message, or get ready to meet someone new.
+- **Write in your own voice.** If you approve an AI Writing Fingerprint in
+  ProSocial, the assistant can draft as you.
+
+It adds one skill and connects the authenticated ProSocial MCP server at
+`https://app.tryprosocial.com/mcp`, which provides these tools:
 
 ```text
+open_people_skills_index
+continue_people_skills_index
 get_my_people_skills_profile
+get_my_writing_fingerprint
 ```
 
-The tool reads the connected member's current PSI profile from:
-
-```text
-https://app.tryprosocial.com/mcp
-```
-
-It cannot select another person or change profile data.
+The PSI panel needs a host that shows MCP Apps, such as Claude or ChatGPT.
+Claude Code and Codex use the profile and writing tools. The tools act only
+for the connected member. They cannot select another person
+or change PSI scores.
 
 ## Install in Claude
 
@@ -45,17 +58,18 @@ Then open `/mcp` in Claude Code and connect ProSocial.
   ProSocial as a Claude connector before using it in a cloud session.
 
 The public OAuth client uses authorization code with PKCE and has no client
-secret. It requests only `openid` and `people_skills:read`. Browser session
-cookies, ProSocial API keys, user IDs, and profile IDs are not accepted by the
-tool.
+secret. It requests only `openid` and `people_skills:read`. Connecting signs
+you in to ProSocial or creates your free account. Browser session cookies,
+ProSocial API keys, user IDs, and profile IDs are not accepted by the tools.
 
 ## Security and data controls
 
-Completing OAuth turns profile sharing on, so the tool can return a complete
-PSI profile once the member has finished the PSI. A member who turned **People
-Skills profile sharing** off in ProSocial Settings stays off.
+Completing OAuth turns profile sharing on, so the tools can run the PSI and
+return the complete profile once the member has finished it. A member who
+turned **People Skills profile sharing** off in ProSocial Settings stays off.
+The AI Writing Fingerprint has its own sharing switch.
 
-Turning profile sharing off blocks every future read. Disconnecting ProSocial
+Turning profile sharing off blocks every future PSI read and session. Disconnecting ProSocial
 in the AI host stops that host from requesting new tokens. Neither control can
 remove profile details already used in a conversation or saved memory.
 
