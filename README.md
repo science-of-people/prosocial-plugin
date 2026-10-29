@@ -51,9 +51,9 @@ tool.
 
 ## Security and data controls
 
-Profile sharing is off by default. The connected member must enable **People
-Skills profile sharing** in ProSocial Settings and complete OAuth before the
-tool can return a complete PSI profile.
+Completing OAuth turns profile sharing on, so the tool can return a complete
+PSI profile once the member has finished the PSI. A member who turned **People
+Skills profile sharing** off in ProSocial Settings stays off.
 
 Turning profile sharing off blocks every future read. Disconnecting ProSocial
 in the AI host stops that host from requesting new tokens. Neither control can
