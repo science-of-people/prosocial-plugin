@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "prosocial",
   "displayName": "ProSocial",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Take the free ProSocial People Skills Index in Claude and get people-skills coaching tailored to how you come across.",
   "icon": "./assets/prosocial-logo.png",
   "author": {
