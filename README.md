@@ -23,9 +23,9 @@ The PSI measures trainable people skills, not personality.
 
 ## What's included
 
-One skill and the ProSocial connector at `https://app.tryprosocial.com/mcp`.
-[Technical details](docs/technical.md) covers the tools, installation, and
-OAuth.
+One skill and the ProSocial connector. The
+[technical details](https://github.com/science-of-people/prosocial-plugin/blob/main/docs/technical.md)
+cover the tools, installation, and OAuth.
 
 ## Support and policies
 

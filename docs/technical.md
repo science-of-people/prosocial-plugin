@@ -22,8 +22,10 @@ another person or change PSI scores.
 
 - Claude, Claude Desktop and the Claude phone apps: add ProSocial from
   **Customize > Plugins**, then connect it on the plugin's **Connectors** tab.
-- Claude Code: run `/plugin directory`, or test a checkout of this repository
-  with `claude --plugin-dir .` and connect ProSocial from `/mcp`.
+- Claude Code: a plugin added in Claude reaches Claude Code as a synced plugin.
+  You can also install ProSocial from the list `/plugin directory` opens, or
+  test a checkout of this repository with `claude --plugin-dir .`. Then connect
+  ProSocial from `/mcp`.
 - ChatGPT and Codex: install ProSocial from OpenAI's plugin directory.
 
 ## Requirements and OAuth

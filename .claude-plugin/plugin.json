@@ -10,6 +10,7 @@
     "url": "https://app.tryprosocial.com"
   },
   "homepage": "https://app.tryprosocial.com",
+  "documentationUrl": "https://github.com/science-of-people/prosocial-plugin/blob/main/docs/technical.md",
   "repository": "https://github.com/science-of-people/prosocial-plugin",
   "privacyPolicyUrl": "https://tryprosocial.com/privacy/",
   "keywords": [
