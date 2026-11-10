@@ -1,6 +1,6 @@
 {
   "name": "prosocial",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Take the ProSocial People Skills Index in ChatGPT and get people-skills coaching tailored to how you come across.",
   "author": {
     "name": "ProSocial",
@@ -16,7 +16,7 @@
     "psi"
   ],
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json",
+  "mcpServers": "./.mcp.codex.json",
   "interface": {
     "displayName": "ProSocial",
     "shortDescription": "See how you come across",
